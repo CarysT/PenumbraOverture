@@ -3,3 +3,5 @@
 .DS_Store
 /*.xcodeproj/*.mode1v3
 /*.xcodeproj/*.pbxuser
+.vs/
+Penumbra.vcxproj.user
