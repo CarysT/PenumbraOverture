@@ -72,6 +72,8 @@
       <TargetMachine>MachineX86</TargetMachine>
       <AdditionalDependencies>HPL.lib;OALWrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>../dependencies/lib/win32;../OALWrapper/lib;../HPL1Engine/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ShowProgress>LinkVerbose</ShowProgress>
+      <IgnoreSpecificDefaultLibraries>GLaux.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
